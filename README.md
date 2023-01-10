@@ -25,14 +25,14 @@ A filehost server written in Go, which features a single-user system, storepath 
 
 | Name | Type |
 | ---------| ------------|
-| vpc | Resource |
-| aws_internet_gateway | Resource |
-| aws_subnet | Resource |
-| aws_route_table | Resource |
-| aws_instance | Resource |
-| aws_route_table_association | Resource |
-| aws_security_group | Resource |
-| aws_key_pair | Resource |
+| `vpc` | Resource |
+| `aws_internet_gateway` | Resource |
+| `aws_subnet` | Resource |
+| `aws_route_table` | Resource |
+| `aws_instance` | Resource |
+| `aws_route_table_association` | Resource |
+| `aws_security_group` | Resource |
+| `aws_key_pair` | Resource |
 
 ## Inputs
 
