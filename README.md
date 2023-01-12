@@ -1,12 +1,12 @@
 # terraform-aws-fsrv
 
-This repo contains a Terraform plan for deploying a [fsrv](https://github.com/icyphox/fsrv) instance on
-[aws](https://aws.amazon.com/) using [Terraform](https://www.terraform.io/).
+This repo contains a Terraform plan for deploying [fsrv](https://github.com/icyphox/fsrv)
+ instance on an AWS EC2 instance
 
 # fsrv
-A filehost server written in Go, which features a single-user system, storepath file serving, and supports filetype hooks
-
-
+```
+A filehost server written in Go, which features a single-user system, storepath file serving, and support for filetype hooks
+```
 ## Requirements
 
 | Name | Version |
@@ -48,10 +48,6 @@ A filehost server written in Go, which features a single-user system, storepath 
 | `availability_zone`| string | yes |
 | `instance_name`  | string | yes |
 | `instance_type`| string | yes |
-| `vpc_name`| string | yes |
-| `subnet_name`| string | yes |
-| `public_route`| string | yes |
-| `internet_gateway_name`| string | yes |
 
 
 ## Contributing

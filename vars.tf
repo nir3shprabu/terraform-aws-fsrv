@@ -34,15 +34,3 @@ variable "instance_type" {
 variable "availability_zone" {
   default = "availability_zone"
 }
-variable "vpc_name" {
-  default = "fsrv_vpc"
-}
-variable "subnet_name" {
-  default = "fsrv_subnet"
-}
-variable "internet_gateway_name" {
-  default = "fsrv_gateway"
-}
-variable "public_route" {
-  default = "fsrv_public_rt"
-}
